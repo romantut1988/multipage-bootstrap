@@ -1,0 +1,86 @@
+body {
+  font-family: "TT Norms";
+  font-size: 16px;
+  color: black;
+}
+
+*:focus {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+header {
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+
+  nav {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    background: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    border: none;
+
+    .dropdown-item {
+      font-size: 10px;
+      line-height: 13px;
+      color: #333333;
+
+      span {
+        margin-right: 8px;
+        width: 20px;
+        display: inline-block;
+        text-align: center;
+      }
+    }
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    padding: 0 22px;
+
+    &:hover {
+      color: #00ac4e;
+    }
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .menu-right {
+    align-items: center;
+    .menu-contact {
+      margin-right: 35px;
+      a {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        text-decoration: none;
+
+        img {
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .menu-user {
+      a,
+      button {
+        margin-left: 30px;
+      }
+
+      button {
+        background: none;
+        border: none;
+        padding: 0;
+      }
+    }
+  }
+}
