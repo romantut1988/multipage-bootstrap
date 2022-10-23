@@ -3,6 +3,9 @@ body {
   font-size: 16px;
   color: black;
 }
+a {
+  color: #00ac4e;
+}
 *:focus {
   outline: -webkit-focus-ring-color auto 0px !important;
 }
@@ -85,6 +88,9 @@ header .menu-right .menu-user button {
 .home-banner {
   padding-top: 100px;
 }
+.home-banner .swiper-banner {
+  width: 100%;
+}
 .home-banner .block {
   position: relative;
   background: linear-gradient(180deg, #f1f1fb 0%, #ebebf5 100%);
@@ -99,4 +105,33 @@ header .menu-right .menu-user button {
   position: absolute;
   top: 0;
   right: 0;
+}
+.home-banner h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31.6273px;
+  line-height: 38px;
+  color: #333333;
+}
+.home-banner p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.88px;
+  line-height: 24px;
+  color: #828282;
+}
+.home-banner a {
+  width: 218px;
+  height: 53px;
+  background: #00ac4e;
+  border-radius: 4.51818px;
+  display: block;
+  align-items: center;
+  line-height: 53px;
+  text-align: center;
+  margin-top: 34px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 25.3018px;
 }
