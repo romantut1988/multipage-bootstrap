@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="/fonts/fonts.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
-
     <title>Multipage bootstrap</title>
 </head>
 
@@ -109,25 +108,35 @@
 
         <div class="section home-banner">
             <div class="container">
-                <div class="row">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide block">
-                                <img src="img/banner1.png" alt="banner1">
-                                <h2 class="">Подарок на первый заказ.</h2>
-                                <p>Получите 500 рублей за подписку на рассылку</p>
-                                <a>Подписаться</a>
-                            </div>
-                            <div class="swiper-slide block">
-                                <img src="img/banner1.png" alt="banner1">
-                                <h2 class="">Подарок на первый заказ.</h2>
-                                <p>Получите 500 рублей за подписку на рассылку</p>
-                                <a href="#">Подписаться</a>
-                            </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide block">
+                            <img src="img/banner1.png" alt="banner1">
+                            <h2 class="">Подарок на первый заказ.</h2>
+                            <p>Получите 500 рублей за подписку на рассылку</p>
+                            <a href="#">Подписаться</a>
                         </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide block">
+                            <img src="img/banner1.png" alt="banner1">
+                            <h2 class="">Подарок на первый заказ.</h2>
+                            <p>Получите 500 рублей за подписку на рассылку</p>
+                            <a href="#">Подписаться</a>
+                        </div>
+                        <div class="swiper-slide block">
+                            <img src="img/banner1.png" alt="banner1">
+                            <h2 class="">Подарок на первый заказ.</h2>
+                            <p>Получите 500 рублей за подписку на рассылку</p>
+                            <a href="#">Подписаться</a>
+                        </div>
+                        <div class="swiper-slide block">
+                            <img src="img/banner1.png" alt="banner1">
+                            <h2 class="">Подарок на первый заказ.</h2>
+                            <p>Получите 500 рублей за подписку на рассылку</p>
+                            <a href="#">Подписаться</a>
+                        </div>
                     </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
@@ -168,6 +177,7 @@
         const swiper = new Swiper('.swiper-container', {
             pagination: {
                 el: '.swiper-pagination',
+                clickable: true,
             },
         });
     </script>
