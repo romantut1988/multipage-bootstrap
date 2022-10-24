@@ -88,8 +88,9 @@ header .menu-right .menu-user button {
 .home-banner {
   padding-top: 100px;
 }
-.home-banner .swiper-banner {
+.home-banner .swiper-container {
   width: 100%;
+  height: 100%;
 }
 .home-banner .block {
   position: relative;
@@ -124,7 +125,7 @@ header .menu-right .menu-user button {
   width: 218px;
   height: 53px;
   background: #00ac4e;
-  border-radius: 4.51818px;
+  border-radius: 5px;
   display: block;
   align-items: center;
   line-height: 53px;
@@ -133,5 +134,5 @@ header .menu-right .menu-user button {
   text-decoration: none;
   color: #ffffff;
   font-weight: 500;
-  font-size: 25.3018px;
+  font-size: 25px;
 }
