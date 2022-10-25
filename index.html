@@ -18,8 +18,8 @@
 <body>
     <div class="wrapper">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#">
                         <img src="/img/logo.png" alt="logo">
                     </a>
@@ -102,45 +102,46 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </header>
+    </div>
 
-        <div class="section home-banner">
-            <div class="container">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide block">
-                            <img src="img/banner1.png" alt="banner1">
-                            <h2 class="">Подарок на первый заказ.</h2>
-                            <p>Получите 500 рублей за подписку на рассылку</p>
-                            <a href="#">Подписаться</a>
-                        </div>
-                        <div class="swiper-slide block">
-                            <img src="img/banner1.png" alt="banner1">
-                            <h2 class="">Подарок на первый заказ.</h2>
-                            <p>Получите 500 рублей за подписку на рассылку</p>
-                            <a href="#">Подписаться</a>
-                        </div>
-                        <div class="swiper-slide block">
-                            <img src="img/banner1.png" alt="banner1">
-                            <h2 class="">Подарок на первый заказ.</h2>
-                            <p>Получите 500 рублей за подписку на рассылку</p>
-                            <a href="#">Подписаться</a>
-                        </div>
-                        <div class="swiper-slide block">
-                            <img src="img/banner1.png" alt="banner1">
-                            <h2 class="">Подарок на первый заказ.</h2>
-                            <p>Получите 500 рублей за подписку на рассылку</p>
-                            <a href="#">Подписаться</a>
-                        </div>
+    <section class="section home-banner">
+        <div class="container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide block">
+                        <img src="img/banner1.png" alt="banner1">
+                        <h2 class="">Подарок на первый заказ.</h2>
+                        <p>Получите 500 рублей за подписку на рассылку</p>
+                        <a href="#">Подписаться</a>
                     </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide block">
+                        <img src="img/banner1.png" alt="banner1">
+                        <h2 class="">Подарок на первый заказ.</h2>
+                        <p>Получите 500 рублей за подписку на рассылку</p>
+                        <a href="#">Подписаться</a>
+                    </div>
+                    <div class="swiper-slide block">
+                        <img src="img/banner1.png" alt="banner1">
+                        <h2 class="">Подарок на первый заказ.</h2>
+                        <p>Получите 500 рублей за подписку на рассылку</p>
+                        <a href="#">Подписаться</a>
+                    </div>
+                    <div class="swiper-slide block">
+                        <img src="img/banner1.png" alt="banner1">
+                        <h2 class="">Подарок на первый заказ.</h2>
+                        <p>Получите 500 рублей за подписку на рассылку</p>
+                        <a href="#">Подписаться</a>
+                    </div>
                 </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </div>
-    </div>
+    </section>
+
 
 
 
@@ -175,6 +176,15 @@
 
     <script>
         const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+        const menuSwiper = new Swiper('.swiper-container-menu', {
+            slidesPerView: 5,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,

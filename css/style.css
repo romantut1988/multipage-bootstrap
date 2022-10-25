@@ -31,22 +31,11 @@ header .dropdown-menu {
   margin: 0;
   z-index: 0;
 }
-header .dropdown-menu .dropdown-item {
-  font-size: 10px;
-  line-height: 13px;
-  color: #333333;
-}
-header .dropdown-menu .dropdown-item span {
-  margin-right: 8px;
-  width: 20px;
-  display: inline-block;
-  text-align: center;
-}
-header .navbar-light .navbar-nav .nav-item.dropdown a {
+header .dropdown-menu .navbar-light .navbar-nav .nav-item.dropdown a {
   position: relative;
   z-index: 1;
 }
-header .navbar-light .navbar-nav .nav-link {
+header .dropdown-menu .navbar-light .navbar-nav .nav-link {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -54,8 +43,19 @@ header .navbar-light .navbar-nav .nav-link {
   color: #333333;
   padding: 0 22px;
 }
-header .navbar-light .navbar-nav .nav-link:hover {
+header .dropdown-menu .navbar-light .navbar-nav .nav-link:hover {
   color: #00ac4e;
+}
+header .dropdown-menu .navbar-light .navbar-nav .dropdown-item {
+  font-size: 10px;
+  line-height: 13px;
+  color: #333333;
+}
+header .dropdown-menu .navbar-light .navbar-nav .dropdown-item span {
+  margin-right: 8px;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
 }
 header .dropdown-toggle::after {
   display: none;
