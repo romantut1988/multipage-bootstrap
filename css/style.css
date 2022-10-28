@@ -28,7 +28,7 @@ header .dropdown-menu {
   padding: 56px 0 0;
   position: relative;
   top: -17px;
-  z-index: 0;
+  z-index: 12;
   margin: 0;
 }
 header .dropdown-menu .dropdown-item {
@@ -47,7 +47,7 @@ header .dropdown-menu .dropdown-item span {
 }
 header .navbar-light .navbar-nav .nav-item.dropdown a {
   position: relative;
-  z-index: 1;
+  z-index: 14;
 }
 header .navbar-light .navbar-nav .nav-item .nav-link {
   font-style: normal;
