@@ -23,64 +23,66 @@ header nav {
 header .dropdown-menu {
   background: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
-  border-radius: 12px;
   border: none;
+  border-radius: 12px;
   padding: 56px 0 0;
   position: relative;
   top: -17px;
-  margin: 0;
   z-index: 0;
+  margin: 0;
 }
-header .dropdown-menu .navbar-light .navbar-nav .nav-item.dropdown a {
-  position: relative;
-  z-index: 1;
-}
-header .dropdown-menu .navbar-light .navbar-nav .nav-link {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #333333;
-  padding: 0 22px;
-}
-header .dropdown-menu .navbar-light .navbar-nav .nav-link:hover {
-  color: #00ac4e;
-}
-header .dropdown-menu .navbar-light .navbar-nav .dropdown-item {
+header .dropdown-menu .dropdown-item {
   font-size: 10px;
   line-height: 13px;
   color: #333333;
+  padding: 9px 20px 9px 20px;
+  display: flex;
+  align-items: center;
 }
-header .dropdown-menu .navbar-light .navbar-nav .dropdown-item span {
+header .dropdown-menu .dropdown-item span {
   margin-right: 8px;
   width: 20px;
   display: inline-block;
   text-align: center;
 }
-header .dropdown-toggle::after {
+header .navbar-light .navbar-nav .nav-item.dropdown a {
+  position: relative;
+  z-index: 1;
+}
+header .navbar-light .navbar-nav .nav-item .nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0 22px;
+}
+header .navbar-light .navbar-nav .nav-item:hover {
+  color: #00ac4e;
+}
+.dropdown-toggle::after {
   display: none;
 }
-header .menu-right {
+.menu-right {
   align-items: center;
 }
-header .menu-right .menu-contact {
+.menu-right .menu-contact {
   margin-right: 35px;
 }
-header .menu-right .menu-contact a {
+.menu-right .menu-contact a {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
   text-decoration: none;
 }
-header .menu-right .menu-contact a img {
+.menu-right .menu-contact a img {
   margin-right: 5px;
 }
-header .menu-right .menu-user a,
-header .menu-right .menu-user button {
+.menu-right .menu-user a,
+.menu-right .menu-user button {
   margin-left: 30px;
 }
-header .menu-right .menu-user button {
+.menu-right .menu-user button {
   background: none;
   border: none;
   padding: 0;
