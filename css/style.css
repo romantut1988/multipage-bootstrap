@@ -98,6 +98,8 @@ header .navbar-light .navbar-nav .nav-item:hover {
 }
 .home-banner {
   padding-top: 100px;
+  padding-bottom: 25px;
+  position: relative;
 }
 .home-banner .swiper-container {
   width: 100%;
@@ -155,4 +157,37 @@ header .navbar-light .navbar-nav .nav-item:hover {
 }
 .home-menu .container {
   overflow-x: hidden;
+}
+.home-menu .container .swiper-button-next:after,
+.home-menu .container .swiper-container-rtl .swiper-button-prev:after {
+  content: "";
+  background-image: url(../img/right.svg);
+  width: 14px;
+  height: 24px;
+}
+.home-menu .container .swiper-button-next,
+.home-menu .container .swiper-container-rtl .swiper-button-prev {
+  right: 0;
+  justify-content: flex-end;
+}
+.home-menu .container .swiper-button-prev {
+  display: none;
+}
+.home-menu .container .swiper-button-next.swiper-button-disabled,
+.home-menu .container .swiper-button-prev.swiper-button-next.swiper-button-disabled {
+  display: none;
+}
+.home-menu .container .swiper-container-menu {
+  position: relative;
+  overflow: hidden;
+}
+.home-menu .container a {
+  font-family: "TT Hoves";
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  width: auto !important;
 }

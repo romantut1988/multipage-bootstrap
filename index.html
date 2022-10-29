@@ -180,6 +180,8 @@
                         <span>Напитки</span>
                     </a>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </section>
@@ -208,14 +210,18 @@
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
-            },
-        });
+            }
+        })
 
         const menuSwiper = new Swiper('.swiper-container-menu', {
-            slidesPerView: 5,
-            spaceBetween: 30,
-            freeMode: true,
-        });
+            slidesPerView: 'auto',
+            spaceBetween: 95,
+
+            navigation: {
+                nextEl: 'swiper-button-next',
+                prevEl: 'swiper-button-prev',
+            },
+        })
     </script>
 
 
