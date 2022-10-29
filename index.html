@@ -107,7 +107,7 @@
         </header>
     </div>
 
-    <section class="section home-banner">
+    <section class="home-banner">
         <div class="container">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -142,6 +142,53 @@
         </div>
     </section>
 
+    <section class="home-menu">
+        <div class="container">
+            <div class="swiper-container-menu">
+                <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="">
+                        <span>Супы</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Хачапури</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Холодные закуски</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Хинкали</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Шашлык</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Соусы</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Салаты</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Горячие блюда</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Гарнир</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Десерты</span>
+                    </a>
+                    <a class="swiper-slide" href="">
+                        <span>Напитки</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
     <!--Option 2: jQuery, Popper.js, and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -166,12 +213,12 @@
 
         const menuSwiper = new Swiper('.swiper-container-menu', {
             slidesPerView: 5,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
+            spaceBetween: 30,
+            freeMode: true,
         });
     </script>
+
+
 </body>
 
 </html>

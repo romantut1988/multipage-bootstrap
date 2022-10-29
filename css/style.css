@@ -153,3 +153,6 @@ header .navbar-light .navbar-nav .nav-item:hover {
   line-height: 24px;
   color: #828282;
 }
+.home-menu .container {
+  overflow-x: hidden;
+}
