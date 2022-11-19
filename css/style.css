@@ -169,6 +169,7 @@ header .navbar-light .navbar-nav .nav-item:hover {
 .home-menu .container .swiper-container-rtl .swiper-button-prev {
   right: 0;
   justify-content: flex-end;
+  background: white;
 }
 .home-menu .container .swiper-button-prev {
   display: none;
