@@ -230,3 +230,86 @@ header {
     }
   }
 }
+
+.home-products {
+  padding-top: 24px;
+  .all_products {
+    margin-bottom: 35px;
+  }
+  .products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .product {
+      width: 205px;
+      margin-bottom: 56px;
+
+      &-img {
+        background-image: url(../img/product.jpeg);
+        background-color: #e6e6e6;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+        height: 125px;
+        overflow: hidden;
+      }
+      &-title {
+        margin: 19px 0 5px;
+        display: block;
+        font-family: "TT Norms Pro";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+      }
+      &-description {
+        font-size: 13px;
+        line-height: 19px;
+        color: #000000;
+        margin-bottom: 8px;
+      }
+
+      .rating {
+        span {
+          background: url(../img/star.svg);
+          width: 13px;
+          height: 13px;
+          display: inline-block;
+
+          &.active {
+            background: url(../img/star-green.svg);
+          }
+        }
+      }
+      .price {
+        b {
+          font-size: 18px;
+          line-height: 23px;
+          color: #000000;
+          margin-right: 18px;
+        }
+        span {
+          font-size: 12x;
+          line-height: 23px;
+          color: #828282;
+        }
+      }
+      a.to-cart {
+        margin-top: 13px;
+        font-weight: 500;
+        width: 140px;
+        line-height: 38px;
+        background: #00ac4e;
+        border-radius: 4px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff;
+        display: inline-block;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
