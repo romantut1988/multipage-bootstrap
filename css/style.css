@@ -194,6 +194,7 @@ header .navbar-light .navbar-nav .nav-item:hover {
 }
 .home-products {
   padding-top: 24px;
+  padding-bottom: 68px;
 }
 .home-products .all_products {
   margin-bottom: 35px;
@@ -265,4 +266,28 @@ header .navbar-light .navbar-nav .nav-item:hover {
 }
 .home-products .products-wrapper .product a.to-cart:hover {
   text-decoration: none;
+}
+.home-products .pagination-block {
+  display: flex;
+  justify-content: center;
+}
+.home-products .pagination-block ul li a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  width: 41px;
+  height: 41px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: none;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-products .pagination-block ul li.active a {
+  background: #00ac4e;
+  color: white;
+  margin: 0 10px;
 }
