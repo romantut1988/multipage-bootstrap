@@ -596,6 +596,16 @@
                 </div>
             </div>
         </section>
+        <section class="home-video">
+            <div class="video-hardcore">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="ytvideo embed-responsive-item" src="" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <img class="play_yt" src="img/play.svg" alt="play">
+                </div>
+            </div>
+        </section>
     </div>
 
 
@@ -614,6 +624,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <script>
+        $('.play_yt').click(function () {
+            $(this).hide();
+            $('.ytvideo').attr('src', 'https://www.youtube.com/embed/Ax5YFnzhZL0?autoplay=1');
+        })
+
         const swiper = new Swiper('.swiper-container', {
             slidesPerView: 1,
             pagination: {

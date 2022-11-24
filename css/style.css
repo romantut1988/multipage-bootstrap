@@ -291,3 +291,19 @@ header .navbar-light .navbar-nav .nav-item:hover {
   color: white;
   margin: 0 10px;
 }
+.home-video .video-hardcore {
+  width: 1440px;
+  margin: 0 auto;
+  background-image: url(../img/videobg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-video .embed-responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-video .play_yt {
+  position: relative;
+  cursor: pointer;
+}
