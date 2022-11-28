@@ -405,3 +405,102 @@ header {
     }
   }
 }
+
+footer {
+  padding: 34px 0;
+  background: #00ac4e;
+  color: #fff;
+  a {
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-left {
+      .phones {
+        display: flex;
+        justify-content: space-between;
+        .phone-item {
+          display: flex;
+          flex-direction: column;
+          margin-right: 60px;
+          &:last-child {
+            margin-right: 0;
+          }
+
+          span {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 32px;
+            color: #ffffff;
+          }
+
+          a {
+            font-weight: 500;
+            font-size: 18.511px;
+            line-height: 39px;
+            color: #ffffff;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .work-time {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 32px;
+        margin: 10px 0;
+        color: #ffffff;
+      }
+      .work-email {
+        display: flex;
+        justify-content: space-between;
+        a {
+          font-size: 18px;
+          line-height: 32px;
+        }
+        a.site-help {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          text-decoration-line: underline;
+          color: #ffffff;
+          margin-top: 15px;
+        }
+      }
+    }
+    .footer-center {
+      .social {
+        display: flex;
+        flex-direction: column;
+
+        a {
+          font-weight: 500;
+          font-size: 15.4259px;
+          line-height: 32px;
+          letter-spacing: 3.08517px;
+          font-variant: small-caps;
+          color: #ffffff;
+        }
+      }
+    }
+    .footer-bottom {
+      margin-top: 12px;
+      font-size: 12px;
+      line-height: 32px;
+
+      a {
+        font-size: 12px;
+        line-height: 32px;
+        margin-left: 32px;
+      }
+    }
+  }
+}
