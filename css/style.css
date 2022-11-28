@@ -181,8 +181,10 @@ header .navbar-light .navbar-nav .nav-item:hover {
 .home-menu .container .swiper-container-menu {
   position: relative;
   overflow: hidden;
+  left: -16px;
+  width: calc(100% + 16px);
 }
-.home-menu .container a {
+.home-menu .container .swiper-container-menu a {
   font-family: "TT Hoves";
   font-weight: 400;
   font-size: 23px;
@@ -191,6 +193,12 @@ header .navbar-light .navbar-nav .nav-item:hover {
   text-transform: uppercase;
   color: #4f4f4f;
   width: auto !important;
+  padding: 8px 16px;
+}
+.home-menu .container .swiper-container-menu a.active {
+  background: #00ac4e;
+  color: white;
+  border-radius: 5px;
 }
 .home-products {
   padding-top: 24px;

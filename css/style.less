@@ -216,17 +216,25 @@ header {
     .swiper-container-menu {
       position: relative;
       overflow: hidden;
-    }
+      left: -16px;
+      width: ~"calc(100% + 16px)";
 
-    a {
-      font-family: "TT Hoves";
-      font-weight: 400;
-      font-size: 23px;
-      line-height: 27px;
-      text-decoration: none;
-      text-transform: uppercase;
-      color: #4f4f4f;
-      width: auto !important;
+      a {
+        font-family: "TT Hoves";
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 27px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #4f4f4f;
+        width: auto !important;
+        padding: 8px 16px;
+        &.active {
+          background: #00ac4e;
+          color: white;
+          border-radius: 5px;
+        }
+      }
     }
   }
 }
