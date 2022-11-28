@@ -418,6 +418,18 @@ footer {
       color: #fff;
     }
   }
+  .footer-bottom {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 32px;
+    font-family: "TT Hoves";
+
+    a {
+      font-size: 12px;
+      line-height: 32px;
+      margin-left: 32px;
+    }
+  }
   .footer-wrapper {
     display: flex;
     justify-content: space-between;
@@ -438,14 +450,12 @@ footer {
             font-weight: 400;
             font-size: 12px;
             line-height: 32px;
-            color: #ffffff;
           }
 
           a {
             font-weight: 500;
-            font-size: 18.511px;
+            font-size: 18px;
             line-height: 39px;
-            color: #ffffff;
             &:hover {
               text-decoration: none;
             }
@@ -461,7 +471,7 @@ footer {
       }
       .work-email {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         a {
           font-size: 18px;
           line-height: 32px;
@@ -483,23 +493,30 @@ footer {
 
         a {
           font-weight: 500;
-          font-size: 15.4259px;
+          font-size: 15px;
           line-height: 32px;
-          letter-spacing: 3.08517px;
+          letter-spacing: 3px;
           font-variant: small-caps;
+          text-transform: uppercase;
           color: #ffffff;
+          margin-bottom: 26px;
         }
       }
     }
-    .footer-bottom {
-      margin-top: 12px;
-      font-size: 12px;
-      line-height: 32px;
 
-      a {
-        font-size: 12px;
-        line-height: 32px;
-        margin-left: 32px;
+    .footer-right {
+      .person {
+        a {
+          display: flex;
+          align-items: center;
+          font-size: 15px;
+          line-height: 32px;
+          color: #ffffff;
+
+          img {
+            margin-right: 7px;
+          }
+        }
       }
     }
   }

@@ -358,6 +358,17 @@ footer a:hover {
   text-decoration: none;
   color: #fff;
 }
+footer .footer-bottom {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 32px;
+  font-family: "TT Hoves";
+}
+footer .footer-bottom a {
+  font-size: 12px;
+  line-height: 32px;
+  margin-left: 32px;
+}
 footer .footer-wrapper {
   display: flex;
   justify-content: space-between;
@@ -378,13 +389,11 @@ footer .footer-wrapper .footer-left .phones .phone-item span {
   font-weight: 400;
   font-size: 12px;
   line-height: 32px;
-  color: #ffffff;
 }
 footer .footer-wrapper .footer-left .phones .phone-item a {
   font-weight: 500;
-  font-size: 18.511px;
+  font-size: 18px;
   line-height: 39px;
-  color: #ffffff;
 }
 footer .footer-wrapper .footer-left .phones .phone-item a:hover {
   text-decoration: none;
@@ -398,7 +407,7 @@ footer .footer-wrapper .footer-left .work-time {
 }
 footer .footer-wrapper .footer-left .work-email {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 footer .footer-wrapper .footer-left .work-email a {
   font-size: 18px;
@@ -418,19 +427,21 @@ footer .footer-wrapper .footer-center .social {
 }
 footer .footer-wrapper .footer-center .social a {
   font-weight: 500;
-  font-size: 15.4259px;
+  font-size: 15px;
   line-height: 32px;
-  letter-spacing: 3.08517px;
+  letter-spacing: 3px;
   font-variant: small-caps;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+footer .footer-wrapper .footer-right .person a {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 32px;
   color: #ffffff;
 }
-footer .footer-wrapper .footer-bottom {
-  margin-top: 12px;
-  font-size: 12px;
-  line-height: 32px;
-}
-footer .footer-wrapper .footer-bottom a {
-  font-size: 12px;
-  line-height: 32px;
-  margin-left: 32px;
+footer .footer-wrapper .footer-right .person a img {
+  margin-right: 7px;
 }
