@@ -453,3 +453,57 @@ footer .footer-wrapper .footer-right .person a {
 footer .footer-wrapper .footer-right .person a img {
   margin-right: 7px;
 }
+.green_btn {
+  background: #00ac4e;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 38px;
+}
+.green_btn:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.default_btn {
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  color: #00ac4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.default_btn img {
+  margin-left: 9px;
+  position: relative;
+  top: 1px;
+}
+.default_btn:hover {
+  text-decoration: none;
+  color: #00ac4e;
+}
+.page-content {
+  padding: 45px 0 60px;
+}
+.page-content h1 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.page-content p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #828282;
+}
