@@ -45,6 +45,9 @@ header .dropdown-menu .dropdown-item span {
   display: inline-block;
   text-align: center;
 }
+header .navbar-light .navbar-nav .nav-item.active .nav-link {
+  color: #00ac4e;
+}
 header .navbar-light .navbar-nav .nav-item.dropdown a {
   position: relative;
   z-index: 14;
