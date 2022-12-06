@@ -510,3 +510,35 @@ footer .footer-wrapper .footer-right .person a img {
   line-height: 26px;
   color: #828282;
 }
+.form-support {
+  width: 672px;
+}
+.form-support textarea {
+  border: none;
+  background: #f9f9f9;
+  border-radius: 5px;
+  height: 174px;
+  width: 100%;
+  padding: 20px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #bdbdbd;
+  margin-bottom: 35px;
+}
+.form-support button {
+  width: 190px;
+  height: 60px;
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  color: #ffffff;
+  line-height: 24px;
+  text-align: center;
+  background: #00ac4e;
+  border-radius: 8px;
+}
