@@ -542,3 +542,165 @@ footer .footer-wrapper .footer-right .person a img {
   background: #00ac4e;
   border-radius: 8px;
 }
+.card {
+  padding: 60px 0;
+}
+.card .card-top {
+  display: flex;
+  justify-content: space-between;
+}
+.card .card-top .card-img {
+  width: 67%;
+  height: 427px;
+  background: #f9f9f9;
+  border-radius: 15px;
+  background-image: url(../img/card-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.card .card-top .card-img img {
+  width: 100%;
+  height: 100%;
+}
+.card .card-top .card-sidebar {
+  padding: 30px;
+  width: 30%;
+  width: 312px;
+  background: #ffffff;
+  box-shadow: 0px 0px 27.1091px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .card-top .card-sidebar .title {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: -20px;
+}
+.card .card-top .card-sidebar .rating {
+  margin-bottom: -16px;
+}
+.card .card-top .card-sidebar .rating span {
+  background: url(../img/star.svg);
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+}
+.card .card-top .card-sidebar .rating span.active {
+  background: url(../img/star-green.svg);
+}
+.card .card-top .card-sidebar .reviews {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #c6c6c6;
+}
+.card .card-top .card-sidebar .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .card-top .card-sidebar .price span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #c6c6c6;
+}
+.card .card-top .card-sidebar .price b {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.card .card-top .card-sidebar .price .input_range {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 116.57px;
+  height: 42.47px;
+  background: #fcfcfc;
+  border: 0.9px solid #ebebeb;
+  border-radius: 9px;
+}
+.card .card-top .card-sidebar .price .input_range::after {
+  content: attr(data-desc);
+  position: absolute;
+  bottom: -18px;
+  right: 0;
+  font-size: 9px;
+  line-height: 14px;
+  color: #c6c6c6;
+}
+.card .card-top .card-sidebar .price .input_range span.button {
+  width: 32%;
+  text-align: center;
+  cursor: pointer;
+}
+.card .card-top .card-sidebar .price .input_range span.button.plus {
+  color: #00ac4e;
+}
+.card .card-top .card-sidebar .price .input_range input {
+  width: 36%;
+  text-align: center;
+  border: none;
+  background: none;
+  font-size: 12px;
+  line-height: 19px;
+  color: #000000;
+}
+.card .card-top .card-sidebar .to-pay {
+  margin-bottom: 12px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .card-top .card-sidebar .to-pay span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+.card .card-top .card-sidebar .to-pay b {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #00ac4e;
+}
+.card .card-top .card-sidebar .pay-block {
+  display: flex;
+  justify-content: space-between;
+}
+.card .card-top .card-sidebar .pay-block .pay-popup {
+  width: 194px;
+  height: 39px;
+  background: #00ac4e;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  border: none;
+}
+.card .card-top .card-sidebar .pay-block .cart-add {
+  background-image: url(../img/btn-cart.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  width: 48px;
+  height: 39px;
+  background-color: #00ac4e;
+  border-radius: 4px;
+}
